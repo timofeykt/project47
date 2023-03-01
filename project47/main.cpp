@@ -5,11 +5,11 @@ string convert(int* vector, int size);
 void rand(int* vector, int size, int bound);
 int min(int* vector, int size);
 int max(int* vector, int size);
-
+//стартовая точка
 int main() {
 
 	int size;
-	cout << "input size";
+	cout << "введите размер";
 	cin >> size;
  int* vector = new int[size];
  rand();
