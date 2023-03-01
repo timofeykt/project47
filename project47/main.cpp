@@ -3,7 +3,8 @@
 using namespace std;
 string convert(int* vector, int size);
 void rand(int* vector, int size, int bound);
-
+int min(int* vector, int size);
+int max(int* vector, int size);
 
 int main() {
 
